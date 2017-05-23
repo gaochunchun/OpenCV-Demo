@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Google ProgressBar颜色-->
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+
+    <color name="background_window">#FFE5E5E5</color>
+
+
+    <color name="main_color">#00F1A0</color>
+
+    <color name="white">#fff</color>
+    <color name="pure_white">#fcfbfb</color>
+    <color name="light_yellow">#fae5b8</color>
+
+    <color name="black">#ff000000</color>
+
+    <color name="green1">#008000</color><!--绿色 -->
+
+    <!-- 标题栏返回按钮的背景颜色 -->
+    <drawable name="button_backward_pressed">#FF3030</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+
+    <drawable name="scroll_line">#00F1A0</drawable><!-- 滑动线条 -->
+
+    <!-- 商品名称背景 -->
+    <color name="goods_bg">#a0000000</color>
+
+    <!-- 程序主色调 -->
+    <color name="tab_main_color">#FDFCFC</color>
+
+    <color name="background">#f2f2f2</color>
+    <color name="table_background">#cbcbcb</color>
+    <color name="gray">#808080</color>
+    <color name="light_white">#fcfcfc</color>
+    <color name="service_select">#ef505d</color>
+    <color name="service_select_pressed">#FF4040</color>
+    <color name="service_download">#47c3c8</color>
+    <color name="service_download_pressed">#7AC5CD</color>
+    <color name="service_prefecture">#12a3d5</color>
+    <color name="service_prefecture_pressed">#4876FF</color>
+    <color name="service_enroll">#f0ef9a</color>
+    <color name="service_enroll_pressed">#EEDC82</color>
+    <color name="main_text_color">#353535</color>
+    <color name="transparent">#0000</color>
+
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color>
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+
+    <!-- 通用按钮的背景颜色 -->
+    <drawable name="button_common_pressed">#fcdff1</drawable>
+    <drawable name="button_common_normal">#fff</drawable>
+    <!-- 内容条目按下时的样式 -->
+    <drawable name="pressed_bg">#f2f2f2</drawable>
+    <drawable name="nopressed_bg">#fff</drawable>
+
+    <!-- 警示性按钮的背景颜色 -->
+    <drawable name="button_caution_pressed">#d1337b</drawable>
+    <drawable name="button_caution_normal">#f559b1</drawable>
+
+    <!-- 问题反馈背景色 -->
+    <color name="problem_bg">#FAF4FF</color>
+
+    <drawable name="list_pressed">#7ccae6</drawable>
+
+    <!-- start zxing -->
+
+    <color name="viewfinder_frame">#2477ab</color> <!-- 四个角的颜色 -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <!-- end zxing -->
+
+
+  <color name="widget_background">#AA000000</color>
+    <color name="widget_toggle_pressed">#BB33B5E5</color>
+    <color name="widget_toggle_active">#9033B5E5</color>
+    <color name="widget_option_active">#FF33B5E5</color>
+    <color name="clock_red">#FF4444</color>
+    <color name="clock_white">#FFFFFF</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="pano_saving_done">#FF5E5233</color>
+    <color name="pano_saving_indication">#FF99CC00</color>
+    <color name="review_drawer_button_bg">#88333333</color>
+    <color name="review_drawer_button_pressed">#8833B5E5</color>
+
+</resources>

@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"> -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+      <!--<item name="android:actionOverflowButtonStyle">@style/MyOverflowStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>-->
+    </style>
+
+  <!--  <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:logo">@drawable/ic_launcher</item>
+        <item name="android:background">@color/main_color</item>
+    </style>-->
+
+    <!--overflow图标-->
+   <!-- <style name="MyOverflowStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_user</item>
+    </style>-->
+
+    <!--   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+    <!--    </style>-->
+
+    <style name="text_gray_14">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="text_black_14">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_black_16">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_black_18">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_black_20">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_white_18">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/light_white</item>
+    </style>
+
+    <style name="text_white_20">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/light_white</item>
+    </style>
+
+    <style name="text_white_14">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/light_white</item>
+    </style>
+
+    <style name="text_white_12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/light_white</item>
+    </style>
+
+    <style name="text_white_16">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/light_white</item>
+    </style>
+
+    <style name="text_14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text_16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text_18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Text.Title_Button" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 定义日期对话框属性 -->
+    <style name="styleDateDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否设置无标题 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 是否半透明 -->
+    </style>
+
+    <!--
+    <style name="Widget" parent="@android:Widget" />
+
+    所有按鈕的样式
+    <style name="Widget.Button">
+        <item name="android:onClick">onClick</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Button.Common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/button_common_selector</item>
+    </style>
+    -->
+
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.Dialog.Alert" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <style name="ShowcaseTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#49C0EC</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+</resources>
